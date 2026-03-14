@@ -9,9 +9,25 @@
 
 ---
 
+## 🔒 Vos fichiers ne quittent jamais votre ordinateur
+
+C'est le principe fondamental de cet outil, et il n'y a pas d'exception.
+
+- **Votre PDF n'est pas uploadé** — il est lu directement dans la mémoire de votre navigateur
+- **Vos sélections, titres, couleurs et polices** ne sont jamais envoyés nulle part
+- **Le PDF exporté** est généré localement et téléchargé directement, sans passer par un serveur
+- **GitHub Pages** héberge uniquement le code de l'outil (le fichier `index.html`), pas vos données — GitHub ne voit jamais le contenu de vos fichiers
+- **Aucun cookie**, aucun tracking, aucun log de contenu
+
+Quand vous fermez l'onglet, tout disparaît. Rien n'est conservé.
+
+> Cet outil peut donc être utilisé en toute confiance avec des documents sensibles, confidentiels ou soumis à des obligations légales de non-divulgation.
+
+---
+
 ## À quoi ça sert
 
-Vous avez un PDF de 50 pages et vous voulez en extraire 12, les réordonner, ajouter des intercalaires et une page de garde — sans installer quoi que ce soit, sans envoyer votre fichier en ligne ?
+Vous avez un PDF de 50 pages et vous voulez en extraire 12, les réordonner, ajouter des intercalaires et une page de garde — sans installer quoi que ce soit, sans envoyer votre fichier en ligne.
 
 **(Dé)coupe et (re)colle** fait exactement ça, dans le navigateur.
 
@@ -35,7 +51,7 @@ Vous avez un PDF de 50 pages et vous voulez en extraire 12, les réordonner, ajo
 
 ### Option 1 — Fichier local
 
-1. Téléchargez [`pdf-composer.html`](./pdf-composer.html)
+1. Téléchargez [`index.html`](./index.html)
 2. Ouvrez-le dans votre navigateur (Chrome, Firefox, Edge, Safari)
 3. Déposez votre PDF — c'est tout
 
@@ -78,3 +94,7 @@ Tout le traitement se fait côté client, grâce à trois bibliothèques chargé
 Vous êtes libre de partager, modifier et utiliser ce projet, y compris à des fins commerciales, à condition de **créditer l'auteur**.
 
 > Auteur : **Bertrand Formet** — [github.com/BFBF-test](https://github.com/BFBF-test)
+
+---
+
+*Fait avec soin, sans serveur.*
