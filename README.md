@@ -11,7 +11,7 @@
 
 ## À quoi ça sert
 
-Vous avez un PDF de 50 pages et vous voulez en extraire 12, les réordonner, ajouter des intercalaires et une page de garde — sans installer quoi que ce soit, sans envoyer votre fichier en ligne.
+Vous avez un PDF de 50 pages et vous voulez en extraire 12, les réordonner, ajouter des intercalaires et une page de garde — sans installer quoi que ce soit, sans envoyer votre fichier en ligne ?
 
 **(Dé)coupe et (re)colle** fait exactement ça, dans le navigateur.
 
@@ -78,7 +78,3 @@ Tout le traitement se fait côté client, grâce à trois bibliothèques chargé
 Vous êtes libre de partager, modifier et utiliser ce projet, y compris à des fins commerciales, à condition de **créditer l'auteur**.
 
 > Auteur : **Bertrand Formet** — [github.com/BFBF-test](https://github.com/BFBF-test)
-
----
-
-*Fait avec soin, sans serveur.*
